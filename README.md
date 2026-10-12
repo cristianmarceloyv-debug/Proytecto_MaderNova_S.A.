@@ -10,6 +10,7 @@ Se utiliza el archivo `dataset_set_B_madernova.xlsx`, el que documenta variables
 - **Carga y segregación:** División del dataset primario para separar contexto de Producción del área Comercial utilizando `pandas`.
 - **Análisis Estadístico:** Cálculo de indicadores críticos de eficiencia y dispersión guardados mediante `joblib`.
 - **Visualización:** Generación de un dashboard gerencial multifacético utilizando `matplotlib` y `seaborn`.
+- **Modularidad:** Implementación de funciones externas (`funciones_madernova.py`) y guardado de resultados con Joblib.
 
 ## Resultados
 Se detecta una alta variabilidad en los tiempos de despacho asociados a los canales, variando fuertemente según la planta. El volumen no muestra relación perfectamente escalonada con la merma, lo cual indica que las pérdidas de material pueden obedecer a incidentes en la línea de producción y no meramente a la cantidad de tableros fabricados.
